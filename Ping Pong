@@ -1,0 +1,15 @@
+function setup() {
+
+    createCanvas(400, 400);
+
+}
+
+function draw() {
+    background(mouseX, mouseY, mouseY)
+    text("Hello!", 175, 30)
+    text(mouseX + "," + mouseY, mouseX, mouseY)
+    rect(10, 175, 10, 75);
+    rect(380, mouseY, 10, 75);
+    rect(200, 200, 10, 10);
+
+}
