@@ -6,10 +6,10 @@ function setup() {
 
 function draw() {
     background(mouseX, mouseY, mouseY)
-    text("Hello!", 175, 30)
+    text("Hello!", 190, 30)
     text(mouseX + "," + mouseY, mouseX, mouseY)
     rect(10, 175, 10, 75);
     rect(380, mouseY, 10, 75);
     rect(200, 200, 10, 10);
-
+    line(206,1,204,399)
 }
